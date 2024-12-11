@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #aa9696; /* Light neutral gray for a clean background */
+    color: #333333; /* Dark gray for readability and professionalism */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center all text and elements */
+}
+
+/* Header */
+#header {
+    padding: 20px;
+    background-color: #2C3E50; /* Dark blue-gray for a professional contrast */
+    color: white;
+}
+
+#header button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #2C3E50;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#header button:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+/* Nested Lists */
+#nested-lists {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #34495E; 
+    border-radius: 8px;
+    display: inline-block; /* Center block within page */
+    text-align: left; /* Nested lists aligned left */
+}
+
+#nested-lists ol {
+    padding-left: 20px;
+    color: #f4f4f4; 
+}
+
+/* Image Section */
+#image-section {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #34495E;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#image-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #e0e0e0; 
+}
+
+
+#youtube-video {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #34495E;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+#on-page-anchor {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #34495E;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+#tableau-graph {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #34495E;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+a {
+    color: #2C3E50; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1ABC9C; 
+}

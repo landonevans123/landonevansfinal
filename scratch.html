@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Page</title>
+  <link rel="stylesheet" href="scratchstyles.css">
+  <style>
+    /* Ensuring the Back to Top anchor stays at the bottom and is fixed */
+    #on-page-anchor {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Landon Loves Basketball</h1>
+        <button onclick="window.location.href='./index.html';">Go to Main Page</button>
+        <button onclick="window.location.href='./wordlebot.html';">Color Matching Game</button> <!-- New button -->
+      </div>      
+
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <!-- Image Section -->
+    <div id="image-section" style="flex: 1; margin-right: 20px;">
+        <h2>Favorite NBA Picture</h2>
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/eb/fd/1eebfdd1-af4d-bde2-64f0-721a813f6517/artwork.jpg/1200x1200bf-60.jpg" 
+             alt="Favorite NBA Picture" 
+             style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </div>
+
+    <!-- Video Section -->
+    <div id="You Will Want To Watch This" style="flex: 1;">
+        <h2>You Will Want To Watch This</h2>
+        <a href="https://www.youtube.com/watch?v=t22flliJLTQ" target="_blank">
+            <img src="https://img.youtube.com/vi/t22flliJLTQ/maxresdefault.jpg" 
+                 alt="YouTube Video" width="100%" height="auto">
+                 
+        </a>
+    </div>
+  </div>
+
+  <!-- Bulleted List Section -->
+  <div id="nested-lists" style="margin-top: 20px;">
+    <h2>Landon's NBA Takes</h2>
+    <ol>
+      <li>Top 2 Players of All Time
+        <ul>
+          <li>Michael Jordan</li>
+          <li>Lebron James</li>
+        </ul>
+      </li>
+      <li>Top 2 Best Shooting Guards of All Time
+        <ul>
+          <li>Michael Jordan</li>
+          <li>James Harden</li>
+        </ul>
+      </li>
+      <li>Who Will Win The NBA Finals This Year????
+        <ul>
+          <li>Houston Rockets (no bias at all)</li>
+        </ul>
+      </li>
+    </ol>
+  </div>  
+
+  <!-- Tableau Graph Section -->
+  <div id="tableau-graph">
+    <h2>Tableau Graph</h2>
+    <div class='tableauPlaceholder' id='viz1733873159218' style='position: relative; width: 700vw; height: 600px;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Worldwide Language Devi Arnita (2)' src='https://public.tableau.com/static/images/Wo/WorldwideLanguageDevitwbxPublicversion2/WorldwideLanguageDeviArnita2/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none; width: 100%; height: 100%;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='WorldwideLanguageDevitwbxPublicversion2/WorldwideLanguageDeviArnita2' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Wo/WorldwideLanguageDevitwbxPublicversion2/WorldwideLanguageDeviArnita2/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733873159218');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        var width = divElement.offsetWidth;
+
+        // Set width to 100vw for full-width effect and height dynamically based on the container's width
+        if (width > 1200) {
+            vizElement.style.width = '70vw'; // Full width of the viewport
+            vizElement.style.height = '600px'; // Fixed height for larger screens
+        } else if (width > 800) {
+            vizElement.style.width = '70vw'; // Full width
+            vizElement.style.height = '500px'; // Slightly smaller height for medium screens
+        } else {
+            vizElement.style.width = '70vw'; // Full width
+            vizElement.style.height = '400px'; // Smaller height for mobile/compact screens
+        }
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- Back to Top Section -->
+  <div id="on-page-anchor">
+    <h2></h2>
+    <a href="#header">Back to Top</a>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

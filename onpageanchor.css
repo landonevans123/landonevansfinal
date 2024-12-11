@@ -1,0 +1,31 @@
+
+body {
+    padding-bottom: 50px; 
+}
+
+
+#on-page-anchor {
+    position: fixed;             
+    bottom: 0;                   
+    left: 50%;                    
+    transform: translateX(-50%);  
+    text-align: center;          
+    width: auto;                  
+    background-color: #f8f9fa;    
+    padding: 10px 0;              
+    z-index: 1000;                
+}
+
+#on-page-anchor a {
+    text-decoration: none;        
+    color: #007bff;               
+    font-weight: bold;            
+    font-size: 16px;              
+}
+
+#tableau-graph {
+    padding-bottom: 60px;         
+}
+
+
+

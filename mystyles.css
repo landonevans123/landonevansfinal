@@ -1,0 +1,68 @@
+/* Font color and family styles */
+body {
+    font-family: Arial, sans-serif; /* Specifies the font family */
+    color: #333; /* Default font color */
+  }
+  
+  h1, h2 {
+    color: #0066cc; /* Color for h1 and h2 headers */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Specific font for headers */
+  }
+  
+  a {
+    color: #ff6347; /* Color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  a:hover {
+    color: #cc3300; /* Hover color for links */
+  }
+  
+  /* Flexbox layout for image and video sections */
+  #image-section, #You-Will-Want-To-Watch-This {
+    flex: 1;
+  }
+  
+  #image-section {
+    margin-right: 20px;
+  }
+  
+  /* Styling the main content div for layout */
+  #header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #nested-lists {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  #tableau-graph {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+  }
+  
+  /* Ensuring the Back to Top anchor stays at the bottom and is fixed */
+  #on-page-anchor {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .tableauPlaceholder {
+    position: relative;
+    width: 700vw;
+    height: 600px;
+  }
+  
+  
